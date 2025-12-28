@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
     <main>
         <form action="<?php $_SERVER['PHP_SELF'] ?>" method="get">
             <label for="Number">Número</label>
-            <input type="number" name="numero" id="idnumbero" min="0" value="<?= $numero?>">
+            <input type="number" name="numero" id="idnumero" min="0" value="<?= $numero?>">
             <input type="submit" value="Calcular Raízes">
         </form>
 

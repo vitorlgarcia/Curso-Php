@@ -31,7 +31,7 @@
             <label for="peso1">Peso 1:</label>
             <input type="number" name="peso1" id="idpeso1" min="1" value="<?=$peso1?>">
             <label for="valor2">Valor 2:</label>
-            <input type="number" name="numero2" id="idpeso2" min="0" value="<?=$numero2?>">
+            <input type="number" name="numero2" id="idnumero2" min="0" value="<?=$numero2?>">
             <label for="peso2">Peso 2:</label>
             <input type="number" name="peso2" id="idpeso2" min="1" value="<?=$peso2?>">
             <input type="submit" value="Calcular as Médias">
