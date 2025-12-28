@@ -9,7 +9,7 @@
 <body>
 
     <?php
-        $salario_base = 1380;
+        $salario_base = 1600;
         $salario = $_GET["salario"] ?? 0;
         $quantidade_salario = (int) ($salario / $salario_base);
         $resto_salario = $salario - $quantidade_salario * $salario_base;
@@ -28,7 +28,7 @@
             <h1>Resultado Final</h1>
 
             <?php
-                echo "<p> Quem recebe um salário de " . number_format($salario, 2, ",", ".") . " ganha <strong> $quantidade_salario salários mínimos </strong> + " . number_format($resto_salario, 2, ",", ".") . ".";
+                echo "<p> Quem recebe um salário de " . number_format($salario, 2, ",", ".") . " ganha <strong> $quantidade_salario salários mínimos </strong> + R$ " . number_format($resto_salario, 2, ",", ".") . ".";
             ?>
 
 

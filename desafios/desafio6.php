@@ -32,7 +32,7 @@
         <h2>Resultado da Divisão</h2>
         <table class="divisao">
             <tr>
-                <td> <?=$dividendo ?> </td> <!--Repare que as varíveis do PHP criadas anteriormente funcionam normalmente quando um script PHP é reaberto. Todas as variáveis sempre serem reconhecidas dentro do mesmo documento. -->
+                <td> <?=$dividendo ?> </td> <!--Repare que as varíveis do PHP criadas anteriormente funcionam normalmente quando um script PHP é reaberto. Todas as variáveis sempre são reconhecidas dentro do mesmo documento. -->
                 <td> <?=$divisor ?> </td>
             </tr>
 
